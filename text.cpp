@@ -1194,5 +1194,36 @@ Ce fichier doit être encodé en Unicode (UTF-16 Little Endian).)";
 	const char* HEXADECIMAL = u8"Hexadecimal";
 #endif // FRENCH
 
-	return 0;
-}();
+#ifdef Vietnamese
+       NATIVE_LANGUAGE = "Vietnamese";
+       ATTACH = u8"Liên kết trò chơi";
+       LAUNCH = u8"Khởi động trò chơi";
+       GAME_CONFIG = u8"Cấu hình trò chơi";
+       DETACH = u8"Tách khỏi trò chơi";
+       FORGET = u8"Quên trò chơi";
+       ADD_HOOK = u8"Thêm hook";
+       REMOVE_HOOKS = u8"Xóa hook";
+       SAVE_HOOKS = u8"Lưu hook";
+       SEARCH_FOR_HOOKS = u8"Tiềm hook";
+       SETTINGS = u8"Cài đặt";
+       EXTENSIONS = u8"Tiện ích mở rộng";
+       SELECT_PROCESS = u8"Chọn quy trình";
+       ATTACH_INFO = u8R"(Nếu bạn không thấy process(tên game.exe) mà bạn muốn liên kết thì hãy thử 
+chạy với quyền admin,bạn cũng có thể nhập trực tiếp process id vào)";       
+       FROM_COMPUTER = u8"chọn từ máy tính";
+       SELECT_PROCESS_INFO = u8"Nếu bạn nhập tên tệp process(tên game.exe)từ ổ cứng ,vui lòng sử dụng đường dẫn trực tiếp";
+       FROM_COMPUTER = u8"chọn từ máy tính";
+       PROCESSES = u8"file mở game(*.exe)";
+       SAVE_SETTINGS = u8"Lưu cài đặt";
+       XTEN_WINDOW_INSTRUCTIONS = u8R"(Để thêm tiện ích mở rộng,nhấp chuột phải vào danh sách tiện ích mở rộng
+ngoài ra bạn có thể sấp xếp và xóa hoặc thêm các tiện ích khác
+(Tiện ích mở rộng được sử dụng từ trên xuống dưới: thứ tự DOES)
+Để xóa tiện ích mở rộng, chọn tiện ích mở rộng và nhấn xóa
+thêm các máy chủ dịch như google hoặc big(.dll) mở từ tệp Texttractor và dán vào đây 
+và khi muốn xóa thì bạn hãy chỉ cần kéo nó ra khỏi danh sách tiện ích)";
+#endif // Vietnamese 
+
+       
+       
+    
+
