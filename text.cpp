@@ -1194,5 +1194,64 @@ Ce fichier doit être encodé en Unicode (UTF-16 Little Endian).)";
 	const char* HEXADECIMAL = u8"Hexadecimal";
 #endif // FRENCH
 
-	return 0;
-}();
+#ifdef Vietnamese
+       NATIVE_LANGUAGE = "Vietnamese";
+       ATTACH = u8"Liên kết trò chơi";
+       LAUNCH = u8"Khởi động trò chơi";
+       GAME_CONFIG = u8"Cấu hình trò chơi";
+       DETACH = u8"Tách khỏi trò chơi";
+       FORGET = u8"Quên trò chơi";
+       ADD_HOOK = u8"Thêm hook";
+       REMOVE_HOOKS = u8"Xóa hook";
+       SAVE_HOOKS = u8"Lưu hook";
+       SEARCH_FOR_HOOKS = u8"Tiềm hook";
+       SETTINGS = u8"Cài đặt";
+       EXTENSIONS = u8"Tiện ích mở rộng";
+       SELECT_PROCESS = u8"Chọn quy trình";
+       ATTACH_INFO = u8R"(Nếu bạn không thấy process(tên game.exe) mà bạn muốn liên kết thì hãy thử 
+chạy với quyền admin,bạn cũng có thể nhập trực tiếp process id vào)";       
+       FROM_COMPUTER = u8"chọn từ máy tính";
+       SELECT_PROCESS_INFO = u8"Nếu bạn nhập tên tệp process(tên game.exe)từ ổ cứng ,vui lòng sử dụng đường dẫn trực tiếp";
+       FROM_COMPUTER = u8"Chọn từ máy tính";
+       PROCESSES = u8"file mở game(*.exe)";
+       SAVE_SETTINGS = u8"Lưu cài đặt";
+       XTEN_WINDOW_INSTRUCTIONS = u8R"(Để thêm tiện ích mở rộng,nhấp chuột phải vào danh sách tiện ích mở rộng
+ngoài ra bạn có thể sấp xếp và xóa hoặc thêm các tiện ích khác
+(Tiện ích mở rộng được sử dụng từ trên xuống dưới: thứ tự DOES)
+Để xóa tiện ích mở rộng, chọn tiện ích mở rộng và nhấn xóa
+thêm các máy chủ dịch như google hoặc big(.dll) mở từ tệp Texttractor và dán vào đây 
+và khi muốn xóa thì bạn hãy chỉ cần kéo nó ra khỏi danh sách tiện ích)";
+       USE_JP_LOCALE = u8"Sử dụng jp_locale";
+       ABOUT = L"Textractor " ARCH L" v" VERSION LR"( Được tạo bởi: Artikash (email: akashmozumdar@gmail.com)
+Trang chủ dự án: https://github.com/Artikash/Textractor
+video hướng dẫn: https://tinyurl.com/textractor-tutorial
+FAQ: https://github.com/Artikash/Textractor/wiki/FAQ
+Vui lòng liên hệ với Artikash khi bạn có bất kỳ vấn đề nào , yêu cầu tính năng hoặc câu hỏi liên quan đến Textractor
+Bạn có thể làm như vậy thông qua trang chủ của dự án (issues section) hoặc qua email của anh ta 
+Mã nguồn có sẵn theo GPLv3 tại trang chủ của dự án
+Nếu bạn thích dự án này, xin vui lòng hãy cho mọi người biết :)) ";
+       UPDATE_AVAILABLE = L"Cập nhật có sẵn:https://github.com/Artikash/Textractor/releases";
+       ALREADY_INJECTED = L"Textractor: Đã có sẵn";
+       NEED_32_BIT = L"Textractor: Kết cấu không khớp : chỉ Textractor x86 mới có thể thực hiện quá trình này ";
+       NEED_64_BIT = L"Textractor: Kết cấu không khớp : chỉ Textractor x64 mới có thể thực hiện quá trình này ";
+       LAUNCH_FAILED = L"Textractor: không thể khởi động ";
+       INVALID_CODE = L"Textractor: mã không hợp lệ";
+       INVALID_CODEPAGE = L"Textractor: không thể chuyển đổi văn bản (codepage không hợp lệ?)";
+       INSERTING_HOOK = u8"Textractor: chèn hook: %s";
+       REMOVING_HOOK = u8"Textractor: xóa hook: %s";
+       HOOK_FAILED = u8"Textractor:không thể chèn hook";
+       TOO_MANY_HOOKS = u8"Textractor:quá nhiều hook: không thể chèn ";
+       STARTING_SEARCH = u8"Textractor:bắt đầu tìm kiếm ";
+       NOT_ENOUGH_TEXT = u8"Textractor: không đủ văn bản để tìm kiếm ";
+       SHOW_ORIGINAL = u8"Văn bản gốc";
+       SHOW_ORIGINAL_INFO = u8R"(Văn bản gốc sẽ không được hiển thị
+Chỉ hoạt động nếu tiện ích mở rộng này được sử dụng trực tiếp sau khi bổ sung phần dịch) ";
+       SIZE_LOCK = u8"Khóa kích thước";
+       OPACITY = u8"Độ mờ";
+       BG_COLOR = u8"Màu nền";
+       TEXT_COLOR = u8"màu chữ";
+ #endif // Vietnamese
+       
+       
+	
+       
